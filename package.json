@@ -17,6 +17,13 @@
   ],
   "author": "Thorsten Kamann <thorsten.kamann@gmail.com> (http://www.kamann.info/)",
   "license": "MIT",
+  "repository" :{
+      "type" : "git",
+      "url" : "https://github.com/thorque/node-synology-surveillance"
+  },
+  "bugs": {
+    "url": "https://github.com/thorque/node-synology-surveillance/issues"
+  },
   "dependencies": {
     "util": "~0.10.3",
     "request": "~2.37.0",
