@@ -1,0 +1,29 @@
+{
+  "name": "node-synology-surveillance",
+  "version": "1.0.0",
+  "description": "NPM module to interact with the Surveillance Station by Synology",
+  "main": "lib/synology.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "Synology",
+    "Diskstation",
+    "Surveillance",
+    "Station",
+    "cam",
+    "video",
+    "record"
+  ],
+  "author": "Thorsten Kamann <thorsten.kamann@gmail.com> (http://www.kamann.info/)",
+  "license": "MIT",
+  "dependencies": {
+    "util": "~0.10.3",
+    "request": "~2.37.0",
+    "events": "~1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "chai": "~1.9.1"
+  }
+}
