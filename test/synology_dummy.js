@@ -11,6 +11,7 @@ var Synology = function(options) {
     syno.surveillance                   = {};
     syno.surveillance.camera            = require(__dirname + '/../lib/surveillance/camera')(syno);
     syno.surveillance.recording         = require(__dirname + '/../lib/surveillance/recording')(syno);
+    syno.surveillance.event             = require(__dirname + '/../lib/surveillance/event')(syno);
 
     return syno;
 };
