@@ -8,8 +8,9 @@ var Synology = function(options) {
         return userOptions;
     }
 
-    syno.surveillance        = {};
-    syno.surveillance.camera = require(__dirname + '/../lib/surveillance/camera')(syno);
+    syno.surveillance                   = {};
+    syno.surveillance.camera            = require(__dirname + '/../lib/surveillance/camera')(syno);
+    syno.surveillance.recording         = require(__dirname + '/../lib/surveillance/recording')(syno);
 
     return syno;
 };
