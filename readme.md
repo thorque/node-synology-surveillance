@@ -55,8 +55,8 @@ The callback is optional too, if you don't need the data or the error.
 The [Surveillance Station's WebApi by Synology](http://www.synology.com/en-global/support/surveillance_station_web_api) 
 provides many APIs:
  
- API Name | Description | Section
- -------- | ––––––––––– | –––––––
+ API Name | Description | Section 
+ -------- | ----------- | ------- 
  SYNO.API.Info | Discover all API information | 2.3.1
  SYNO.API.Auth | Perform session login and logout | 2.3.2
  SYNO.SurveillanceStation.Info | Retrieve Surveillance Station-related general information | 2.3.3
