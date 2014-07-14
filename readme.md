@@ -16,7 +16,7 @@ Node module to interact with the Surveillance Station by Synology.
 You can use this module on the same way as you do it with oter modules:
 
 ```javascript
-var Synology = require('./synology');
+var Synology = require('node-synology-surveillance');
 
 var syno = new Synology({
     host    : 'localhost',
