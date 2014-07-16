@@ -41,6 +41,14 @@ describe('#cameras', function() {
         });
     })
 
+    it('get the current snapshot url of the selected url', function () {
+        syno.surveillance.camera.get_snapshot({cameraId:54}, function(params){
+            params.cameraId.should.equal(54);
+            params.method.should.equal("GetSnapshot");
+        });
+    })
+
+
     it('disable the cam with the given id', function () {
         syno.surveillance.camera.disable({cameraIds:"2,4,6"}, function(params){
             params.cameraIds.should.equal("2,4,6");

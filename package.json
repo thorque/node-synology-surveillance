@@ -1,6 +1,6 @@
 {
   "name": "node-synology-surveillance",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "NPM module to interact with the Surveillance Station by Synology",
   "main": "lib/synology.js",
   "scripts": {
