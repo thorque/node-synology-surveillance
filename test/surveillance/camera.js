@@ -42,9 +42,17 @@ describe('#cameras', function() {
     })
 
     it('get the current snapshot url of the selected url', function () {
-        syno.surveillance.camera.get_snapshot({cameraId:54}, function(params){
+        syno.surveillance.camera.get_snapshot_url({cameraId:54}, function(params){
             params.cameraId.should.equal(54);
             params.method.should.equal("GetSnapshot");
+        });
+    })
+
+    it('get the current videostream url of the selected url', function () {
+        syno.surveillance.camera.get_videostream_url({cameraId:54, format: 'hls'}, function(params){
+            params.cameraId.should.equal(54);
+            params.format.should.equal('hls');
+            params.method.should.equal("Stream");
         });
     })
 
